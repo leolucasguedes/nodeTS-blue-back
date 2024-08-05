@@ -17,6 +17,7 @@ model Restaurant {
   email    String 
   phone    String
   foodType String
+  instagram String
 
   @@map("restaurants")
 }

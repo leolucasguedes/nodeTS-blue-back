@@ -9,6 +9,7 @@ const RestaurantSchema = Joi.object<CreateData>({
   email: Joi.string().required(),
   phone: Joi.string().max(11).required(),
   foodType: Joi.string().required(),
+  instagram: Joi.string().required(),
 });
 
 export default RestaurantSchema;
